@@ -10,7 +10,7 @@ const rentalsCtrl =  require('../controllers/rentals');
 
 /* GET users listing. */
 router.get('/', rentalsCtrl.index);
-router.post('/rentals', rentalsCtrl.create);
+router.post('/', rentalsCtrl.create);
 
 
 module.exports = router;
