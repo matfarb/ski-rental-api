@@ -39,6 +39,7 @@ async function login(req, res){
     }
 }
 
+// async function getUserRentals(req, res)
 
 function createJWT(user){
     return jwt.sign(
